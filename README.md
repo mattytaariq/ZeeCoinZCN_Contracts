@@ -1,6 +1,6 @@
 # Contracts [![Coverage Status](https://coveralls.io/repos/github/paulrberg/contracts/badge.svg?branch=main)](https://coveralls.io/github/paulrberg/contracts?branch=main) [![Styled with Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io) [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-yellow.svg)](https://spdx.org/licenses/WTFPL.html)
 
-**Off-the-shelf Solidity smart contracts.** Built with my beloved [Solidity template](https://github.com/PaulRBerg/solidity-template).
+**Off-the-shelf Solidity smart contracts.** Built with paulrbergs amazing design The beloved [Solidity template](https://github.com/PaulRBerg/solidity-template).
 
 - Designed for Solidity >=0.8.4
 - Complementary to [OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
@@ -8,8 +8,8 @@
 - Well-documented via NatSpec comments
 - Thoroughly tested with Hardhat and Waffle
 
-I created this library for my own use, to avoid having to maintain the same contracts in different repositories. If you find
-it useful too, it's a win for both of us.
+“I created this library for my own use, to avoid having to maintain the same contracts in different repositories. If you find
+it useful too, it's a win for both of us”
 
 ## Caveat Emptor
 
@@ -20,17 +20,17 @@ This is experimental software and is provided on an "as is" and "as available" b
 With yarn:
 
 ```sh
-$ yarn add @paulrberg/contracts
+$ yarn add @mattytaariq/ZeeCoinZCN_Contracts
 ```
 
 Or npm:
 
 ```sh
-npm install @paulrberg/contracts
+npm install @mattytaariq/ZeeCoinZCN_Contracts
 ```
 
 I adhere to [semver](https://semver.org/), which means that your contracts won't break unexpectedly when upgrading to a
-newer minor version of `@paulrberg/contracts`.
+newer minor version of `@paulrberg/contracts`
 
 ## Usage
 
@@ -39,9 +39,9 @@ Once installed, you can use the contracts like this:
 ```solidity
 pragma solidity >=0.8.4;
 
-import "@paulrberg/contracts/math/PRBMathUD60x18.sol";
-import "@paulrberg/contracts/token/erc20/Erc20.sol";
-import "@paulrberg/contracts/token/erc20/Erc20Permit.sol";
+import "@mattytaariq/ZeeCoinZCN_Contracts/math/PRBMathUD60x18.sol";
+import "@mattytaariq/ZeeCoinZCN_Contracts/token/erc20/Erc20.sol";
+import "@mattytaariq/ZeeCoinZCN_Contracts/token/erc20/Erc20Permit.sol";
 
 contract MyToken is Erc20, Erc20Permit {
   using PRBMathUD60x18 for uint256;
@@ -132,6 +132,7 @@ I am grateful to the authors of existing related projects:
 
 - [OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
 - Alberto Cuesta Cañada's [Erc20Permit and Orchestrated](https://github.com/albertocuestacanada)
+- Paul Berg [https://github.com/paulrberg/contracts)
 
 ## License
 

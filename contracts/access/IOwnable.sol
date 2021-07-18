@@ -2,7 +2,7 @@
 pragma solidity >=0.8.4;
 
 /// @title IOwnable
-/// @author Paul Razvan Berg
+/// @author Paul Razvan Berg Template addition @Taariq Matthysen
 /// @notice Contract module that provides a basic access control mechanism, where there is an
 /// account (an owner) that can be granted exclusive access to specific functions.
 ///

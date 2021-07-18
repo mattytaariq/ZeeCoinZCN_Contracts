@@ -10,7 +10,7 @@ error Admin__NotAdmin(address admin, address caller);
 error Admin__AdminZeroAddress();
 
 /// @title Admin
-/// @author Paul Razvan Berg
+/// @author Paul Razvan Berg Template addition @Taariq Matthysen
 contract Admin is IAdmin {
     /// PUBLIC STORAGE ///
 

@@ -4,7 +4,7 @@ pragma solidity >=0.8.4;
 import "./IOwnable.sol";
 
 /// @title IOrchestratable
-/// @author Paul Razvan Berg
+/// @author Paul Razvan Berg Template addition @Taariq Matthysen
 /// @notice Orchestrated static access control between multiple contracts.
 ///
 /// This should be used as a parent contract of any contract that needs to restrict access to some methods, which

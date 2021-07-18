@@ -31,7 +31,7 @@ error Erc20__TransferSenderZeroAddress();
 error Erc20__TransferRecipientZeroAddress();
 
 /// @title Erc20
-/// @author Paul Razvan Berg
+/// @author Taariq Matthysen Forked from @Paulberg
 contract Erc20 is IErc20 {
     /// PUBLIC STORAGE ///
 

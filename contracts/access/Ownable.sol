@@ -10,7 +10,7 @@ error Ownable__NotOwner(address owner, address caller);
 error Ownable__OwnerZeroAddress();
 
 /// @title Ownable
-/// @author Paul Razvan Berg
+/// @author Paul Razvan Berg Template addition @Taariq Matthysen
 contract Ownable is IOwnable {
     /// PUBLIC STORAGE ///
 

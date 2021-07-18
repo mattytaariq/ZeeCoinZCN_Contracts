@@ -2,7 +2,7 @@
 pragma solidity >=0.8.4;
 
 /// @title IAdmin
-/// @author Paul Razvan Berg
+/// @author Paul Razvan Berg Template addition @Taariq Matthysen
 /// @notice Contract module which provides a basic access control mechanism, where there is an
 /// account (an admin) that can be granted exclusive access to specific functions.
 ///

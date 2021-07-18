@@ -8,7 +8,7 @@ import "./IOrchestratable.sol";
 error Orchestratable__NotOrchestrated(address caller, bytes4 signature);
 
 /// @title Orchestratable
-/// @author Paul Razvan Berg
+/// @author Paul Razvan Berg Template addition @Taariq Matthysen
 contract Orchestratable is
     IOrchestratable, // one dependency
     Ownable // one dependency
